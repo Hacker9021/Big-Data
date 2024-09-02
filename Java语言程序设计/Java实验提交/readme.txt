@@ -1,0 +1,7 @@
+使用IntelliJ IDEA Community Edition 2023.3.3 x64作为开发环境。操作系统为Windows11。通过已经给出的代码框架进行总体功能的实现。
+
+所用的JDK为openjdk-17版本。
+
+将SearchEngineForStudent在IDEA中打开即可看到实验所用到的.class文件，其中在run目录下含有两个可执行的Test类，分别是索引建立和单词查询。在运行TestBuildIndex后即可以建立起测试文件的索引，然后在运行TestSearchIndex，在控制台输入所需要的单词既可以得到对应文件的docId、文件路径和文件内容。输入样例图片在报告已呈现。
+
+SearchEngineForStudent是项目文件，所编的实验的源文件.class全都包含在此文件夹下。

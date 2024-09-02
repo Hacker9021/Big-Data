@@ -1,0 +1,36 @@
+create table Student(
+       Sno varchar(100) primary key,
+       Sname varchar(100),
+       Ssex varchar(50),
+       Sage int,
+       Sdept varchar(100)
+);
+
+insert into Student values ('201215121', '李勇', '男', 20, 'CS');
+insert into Student values ('201215122', '刘晨', '女', 19, 'CS');
+insert into Student values ('201215123', '王敏', '女', 18, 'MA');
+insert into Student values ('201215124', '张立', '男', 19, 'IS');
+
+create table Course(
+      Cno varchar(100) primary key,
+      Cname varchar(100) NOT NULL,
+      Cpno varchar(100),
+      Ccredit smallint,
+   );
+
+insert into Course values ('1', '数据库', '5', 4);
+insert into Course values ('2', '数学', '', 2);
+insert into Course values ('3', '信息系统', '1', 4);
+insert into Course values ('4', '操作系统', '6', 3);
+insert into Course values ('5', '数据结构', '7', 4);
+insert into Course values ('6', '数据处理', '', 2);
+insert into Course values ('7', 'PASCAL语言', '6', 4);
+
+create table SC(
+     Sno varchar(20),
+     Cno varchar(20),
+     Grade smallint,
+     primary key(Sno, Cno),
+     foreign key(Sno) references Student(Sno),
+     foreign key(Cno) references Course(Cno)
+);

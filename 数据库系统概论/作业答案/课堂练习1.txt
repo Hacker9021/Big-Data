@@ -1,0 +1,47 @@
+insert into Teacher values ('001', '云鹏');
+insert into Teacher values ('002', '德纲');
+insert into Teacher values ('003', '于谦');
+
+
+insert into Student values ('N201', ' ', 2024, '002');
+insert into Student values ('N202', ' ', 2024, '002');
+insert into Student values ('N203', ' ', 2024, '003');
+insert into Student values ('N204', ' ', 2024, '001');
+insert into Student values ('N205', ' ', 2023, '001');
+
+insert into Project values ('P1', '光谷项目一', 2024);
+insert into Project values ('P2', '光谷项目二', 2024);
+insert into Project values ('P3', '东湖项目一', 2023);
+insert into Project values ('P4', '东湖项目二', 2024);
+insert into Project values ('P5', '东湖项目三', 2024);
+
+update Student set Sname = '华小科1号' where Sno = 'N201';
+update Student set Sname = '华小科2号' where Sno = 'N202';
+update Student set Sname = '华小科3号' where Sno = 'N203';
+update Student set Sname = '华小科4号' where Sno = 'N204';
+update Student set Sname = '华小科5号' where Sno = 'N205';
+
+insert into TP values ('001', 'p1');
+insert into TP values ('001', 'p2');
+insert into TP values ('002', 'P3');
+insert into TP values ('003', 'P4');
+insert into TP values ('003', 'P5');
+
+insert into SPT values ('N201', 'p1', '001');
+insert into SPT values ('N202', 'p1', '001');
+insert into SPT values ('N203', 'p2', '001');
+insert into SPT values ('N204', 'p4', '003');
+insert into SPT values ('N205', 'p5', '003');
+
+select Pno, Pname from Project where 
+Pname like '光谷%' and Pno in (
+  select Pno from TP where Tno = '001' and Pno in (
+      select Pno from TP where Tno = '002'
+  )
+)
+
+select Sno from SPT where Pno in 
+(select Pno from TP, Teacher where TP.Tno = Teacher.Tno and Tname = '于谦')
+group by Sno having count(SPT.Pno) = (
+  select count(TP.Pno) from TP where Tno = (select Tno from Teacher where Tname = '于谦') group by Tno
+)

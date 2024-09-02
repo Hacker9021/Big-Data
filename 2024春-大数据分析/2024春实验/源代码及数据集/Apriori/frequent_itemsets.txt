@@ -1,0 +1,398 @@
+频繁项集及其支持度
+{'basic'}: 0.179
+{'web'}: 0.231
+{'different'}: 0.228
+{'title'}: 0.248
+{'new'}: 0.165
+{'time'}: 0.198
+{'like'}: 0.224
+{'words'}: 0.193
+{'references'}: 0.263
+{'see'}: 0.155
+{'archive'}: 0.163
+{'jpg'}: 0.253
+{'pages'}: 0.27
+{'cite'}: 0.22
+{'person'}: 0.164
+{'two'}: 0.188
+{'wiktionary'}: 0.165
+{'website'}: 0.153
+{'right'}: 0.191
+{'work'}: 0.166
+{'redirect'}: 0.37
+{'one'}: 0.307
+{'date'}: 0.245
+{'example'}: 0.209
+{'wikt'}: 0.15
+{'www'}: 0.231
+{'http'}: 0.202
+{'english'}: 0.248
+{'world'}: 0.174
+{'people'}: 0.337
+{'url'}: 0.235
+{'mean'}: 0.198
+{'thumb'}: 0.287
+{'word'}: 0.184
+{'https'}: 0.231
+{'title', 'people'}: 0.171
+{'thumb', 'date'}: 0.166
+{'https', 'date'}: 0.205
+{'references', 'like'}: 0.158
+{'cite', 'pages'}: 0.152
+{'references', 'one'}: 0.191
+{'title', 'one'}: 0.175
+{'web', 'pages'}: 0.151
+{'one', 'cite'}: 0.161
+{'archive', 'web'}: 0.153
+{'people', 'web'}: 0.159
+{'people', 'like'}: 0.175
+{'web', 'www'}: 0.2
+{'web', 'cite'}: 0.198
+{'jpg', 'url'}: 0.154
+{'web', 'url'}: 0.213
+{'references', 'url'}: 0.212
+{'jpg', 'www'}: 0.16
+{'https', 'http'}: 0.167
+{'url', 'cite'}: 0.215
+{'title', 'https'}: 0.206
+{'www', 'url'}: 0.207
+{'different', 'people'}: 0.163
+{'date', 'url'}: 0.211
+{'title', 'pages'}: 0.162
+{'https', 'people'}: 0.163
+{'web', 'one'}: 0.155
+{'english', 'people'}: 0.153
+{'different', 'one'}: 0.158
+{'thumb', 'one'}: 0.179
+{'https', 'one'}: 0.165
+{'date', 'references'}: 0.206
+{'web', 'http'}: 0.171
+{'one', 'pages'}: 0.167
+{'thumb', 'web'}: 0.153
+{'thumb', 'url'}: 0.158
+{'https', 'cite'}: 0.203
+{'people', 'pages'}: 0.174
+{'thumb', 'cite'}: 0.152
+{'thumb', 'www'}: 0.16
+{'title', 'http'}: 0.172
+{'people', 'thumb'}: 0.197
+{'thumb', 'pages'}: 0.164
+{'www', 'date'}: 0.198
+{'people', 'cite'}: 0.159
+{'https', 'pages'}: 0.158
+{'https', 'archive'}: 0.16
+{'one', 'url'}: 0.164
+{'web', 'date'}: 0.198
+{'https', 'references'}: 0.21
+{'https', 'web'}: 0.203
+{'title', 'web'}: 0.201
+{'web', 'references'}: 0.197
+{'one', 'like'}: 0.157
+{'date', 'pages'}: 0.16
+{'archive', 'date'}: 0.155
+{'jpg', 'web'}: 0.15
+{'jpg', 'references'}: 0.169
+{'title', 'cite'}: 0.219
+{'people', 'url'}: 0.167
+{'jpg', 'like'}: 0.16
+{'jpg', 'one'}: 0.163
+{'url', 'pages'}: 0.158
+{'archive', 'url'}: 0.158
+{'http', 'date'}: 0.17
+{'jpg', 'pages'}: 0.151
+{'people', 'jpg'}: 0.187
+{'www', 'one'}: 0.162
+{'people', 'references'}: 0.191
+{'people', 'one'}: 0.192
+{'title', 'jpg'}: 0.162
+{'references', 'cite'}: 0.206
+{'title', 'references'}: 0.213
+{'https', 'jpg'}: 0.161
+{'https', 'www'}: 0.208
+{'title', 'url'}: 0.217
+{'www', 'http'}: 0.181
+{'https', 'url'}: 0.215
+{'title', 'www'}: 0.204
+{'title', 'date'}: 0.204
+{'english', 'basic'}: 0.152
+{'people', 'www'}: 0.164
+{'date', 'cite'}: 0.198
+{'www', 'pages'}: 0.153
+{'archive', 'www'}: 0.15
+{'jpg', 'date'}: 0.162
+{'thumb', 'like'}: 0.17
+{'references', 'pages'}: 0.167
+{'http', 'references'}: 0.174
+{'date', 'one'}: 0.17
+{'www', 'references'}: 0.204
+{'thumb', 'jpg'}: 0.233
+{'words', 'english'}: 0.168
+{'thumb', 'references'}: 0.174
+{'title', 'thumb'}: 0.163
+{'different', 'thumb'}: 0.159
+{'people', 'date'}: 0.17
+{'www', 'cite'}: 0.196
+{'http', 'cite'}: 0.166
+{'https', 'thumb'}: 0.163
+{'thumb', 'right'}: 0.153
+{'http', 'url'}: 0.177
+{'title', 'web', 'http'}: 0.158
+{'https', 'references', 'cite'}: 0.192
+{'cite', 'web', 'www'}: 0.185
+{'web', 'http', 'cite'}: 0.156
+{'title', 'http', 'cite'}: 0.166
+{'web', 'http', 'references'}: 0.156
+{'https', 'http', 'cite'}: 0.152
+{'web', 'references', 'www'}: 0.183
+{'jpg', 'thumb', 'one'}: 0.152
+{'https', 'date', 'cite'}: 0.189
+{'https', 'www', 'date'}: 0.191
+{'title', 'date', 'url'}: 0.198
+{'date', 'web', 'references'}: 0.184
+{'https', 'archive', 'url'}: 0.157
+{'https', 'url', 'pages'}: 0.151
+{'https', 'people', 'url'}: 0.156
+{'title', 'date', 'cite'}: 0.198
+{'people', 'www', 'references'}: 0.15
+{'https', 'archive', 'web'}: 0.153
+{'title', 'web', 'date'}: 0.186
+{'people', 'references', 'url'}: 0.156
+{'title', 'https', 'one'}: 0.151
+{'title', 'https', 'references'}: 0.195
+{'www', 'references', 'url'}: 0.191
+{'title', 'web', 'cite'}: 0.198
+{'title', 'https', 'web'}: 0.189
+{'web', 'url', 'www'}: 0.196
+{'one', 'date', 'url'}: 0.152
+{'http', 'references', 'url'}: 0.163
+{'http', 'references', 'cite'}: 0.159
+{'www', 'http', 'references'}: 0.161
+{'https', 'web', 'http'}: 0.159
+{'archive', 'date', 'url'}: 0.154
+{'title', 'people', 'date'}: 0.15
+{'https', 'url', 'cite'}: 0.202
+{'title', 'www', 'cite'}: 0.196
+{'title', 'thumb', 'cite'}: 0.152
+{'thumb', 'jpg', 'references'}: 0.153
+{'www', 'references', 'one'}: 0.155
+{'https', 'http', 'date'}: 0.158
+{'references', 'one', 'url'}: 0.158
+{'title', 'http', 'date'}: 0.157
+{'https', 'date', 'url'}: 0.202
+{'title', 'people', 'cite'}: 0.159
+{'title', 'www', 'date'}: 0.185
+{'people', 'references', 'cite'}: 0.152
+{'web', 'date', 'www'}: 0.184
+{'https', 'one', 'cite'}: 0.15
+{'title', 'one', 'url'}: 0.158
+{'https', 'www', 'one'}: 0.152
+{'title', 'one', 'cite'}: 0.161
+{'references', 'url', 'cite'}: 0.203
+{'www', 'references', 'cite'}: 0.186
+{'https', 'web', 'cite'}: 0.188
+{'https', 'jpg', 'url'}: 0.151
+{'archive', 'web', 'date'}: 0.151
+{'title', 'www', 'http'}: 0.161
+{'https', 'http', 'url'}: 0.162
+{'title', 'web', 'references'}: 0.188
+{'title', 'https', 'www'}: 0.191
+{'title', 'url', 'cite'}: 0.215
+{'https', 'www', 'cite'}: 0.189
+{'title', 'https', 'url'}: 0.204
+{'www', 'date', 'cite'}: 0.182
+{'people', 'www', 'url'}: 0.151
+{'title', 'people', 'https'}: 0.15
+{'date', 'www', 'references'}: 0.185
+{'date', 'url', 'cite'}: 0.196
+{'jpg', 'people', 'thumb'}: 0.175
+{'web', 'http', 'date'}: 0.158
+{'date', 'references', 'url'}: 0.196
+{'web', 'date', 'url'}: 0.197
+{'https', 'one', 'url'}: 0.153
+{'title', 'www', 'references'}: 0.189
+{'https', 'references', 'url'}: 0.198
+{'web', 'http', 'url'}: 0.168
+{'title', 'date', 'one'}: 0.152
+{'date', 'people', 'references'}: 0.153
+{'https', 'date', 'one'}: 0.151
+{'http', 'url', 'cite'}: 0.164
+{'people', 'date', 'url'}: 0.154
+{'title', 'https', 'cite'}: 0.203
+{'title', 'thumb', 'url'}: 0.15
+{'www', 'url', 'cite'}: 0.195
+{'title', 'http', 'url'}: 0.165
+{'www', 'http', 'cite'}: 0.156
+{'date', 'references', 'one'}: 0.154
+{'https', 'jpg', 'references'}: 0.151
+{'https', 'www', 'http'}: 0.161
+{'https', 'archive', 'date'}: 0.154
+{'https', 'web', 'references'}: 0.186
+{'thumb', 'url', 'cite'}: 0.15
+{'https', 'thumb', 'url'}: 0.153
+{'https', 'references', 'one'}: 0.158
+{'references', 'one', 'cite'}: 0.157
+{'www', 'http', 'date'}: 0.161
+{'thumb', 'jpg', 'like'}: 0.152
+{'title', 'cite', 'pages'}: 0.152
+{'title', 'references', 'one'}: 0.162
+{'http', 'date', 'url'}: 0.166
+{'web', 'date', 'cite'}: 0.185
+{'https', 'people', 'references'}: 0.154
+{'date', 'http', 'references'}: 0.156
+{'title', 'people', 'references'}: 0.156
+{'archive', 'web', 'url'}: 0.151
+{'one', 'url', 'cite'}: 0.158
+{'title', 'web', 'www'}: 0.187
+{'web', 'url', 'cite'}: 0.198
+{'https', 'web', 'url'}: 0.2
+{'https', 'thumb', 'references'}: 0.151
+{'title', 'http', 'references'}: 0.162
+{'title', 'web', 'url'}: 0.199
+{'https', 'web', 'www'}: 0.19
+{'title', 'references', 'url'}: 0.205
+{'https', 'www', 'references'}: 0.194
+{'web', 'http', 'www'}: 0.163
+{'https', 'http', 'references'}: 0.155
+{'https', 'title', 'http'}: 0.153
+{'www', 'http', 'url'}: 0.166
+{'web', 'references', 'url'}: 0.193
+{'https', 'www', 'url'}: 0.199
+{'web', 'references', 'cite'}: 0.187
+{'title', 'www', 'url'}: 0.197
+{'http', 'date', 'cite'}: 0.155
+{'https', 'archive', 'www'}: 0.15
+{'https', 'people', 'www'}: 0.152
+{'title', 'people', 'url'}: 0.158
+{'https', 'title', 'date'}: 0.192
+{'people', 'url', 'cite'}: 0.157
+{'www', 'date', 'url'}: 0.193
+{'https', 'web', 'date'}: 0.192
+{'https', 'date', 'references'}: 0.192
+{'date', 'references', 'cite'}: 0.189
+{'people', 'web', 'url'}: 0.153
+{'date', 'title', 'references'}: 0.193
+{'title', 'references', 'cite'}: 0.206
+{'http', 'references', 'url', 'cite'}: 0.157
+{'archive', 'web', 'date', 'url'}: 0.151
+{'https', 'web', 'url', 'www'}: 0.188
+{'title', 'https', 'web', 'cite'}: 0.188
+{'https', 'title', 'references', 'cite'}: 0.192
+{'www', 'references', 'url', 'cite'}: 0.185
+{'www', 'web', 'url', 'cite'}: 0.185
+{'https', 'web', 'references', 'cite'}: 0.178
+{'https', 'title', 'http', 'url'}: 0.152
+{'title', 'http', 'url', 'cite'}: 0.164
+{'title', 'thumb', 'url', 'cite'}: 0.15
+{'title', 'https', 'www', 'http'}: 0.15
+{'title', 'web', 'http', 'references'}: 0.15
+{'title', 'web', 'date', 'references'}: 0.178
+{'https', 'www', 'date', 'url'}: 0.189
+{'www', 'http', 'date', 'url'}: 0.158
+{'web', 'date', 'references', 'cite'}: 0.177
+{'title', 'date', 'url', 'cite'}: 0.196
+{'title', 'www', 'date', 'url'}: 0.184
+{'https', 'www', 'date', 'cite'}: 0.178
+{'https', 'archive', 'web', 'url'}: 0.151
+{'web', 'date', 'url', 'cite'}: 0.185
+{'date', 'url', 'references', 'cite'}: 0.188
+{'https', 'www', 'date', 'references'}: 0.181
+{'title', 'date', 'url', 'references'}: 0.19
+{'www', 'date', 'references', 'cite'}: 0.176
+{'title', 'https', 'web', 'url'}: 0.189
+{'title', 'www', 'references', 'url'}: 0.187
+{'title', 'web', 'http', 'cite'}: 0.156
+{'web', 'http', 'url', 'www'}: 0.161
+{'www', 'http', 'references', 'url'}: 0.154
+{'https', 'www', 'references', 'url'}: 0.185
+{'https', 'title', 'url', 'cite'}: 0.202
+{'title', 'https', 'www', 'cite'}: 0.189
+{'title', 'web', 'references', 'cite'}: 0.187
+{'https', 'http', 'url', 'cite'}: 0.151
+{'title', 'www', 'http', 'cite'}: 0.156
+{'https', 'title', 'date', 'cite'}: 0.189
+{'www', 'date', 'url', 'cite'}: 0.182
+{'https', 'web', 'date', 'references'}: 0.179
+{'title', 'people', 'url', 'cite'}: 0.157
+{'web', 'http', 'date', 'url'}: 0.158
+{'http', 'date', 'url', 'references'}: 0.154
+{'title', 'one', 'url', 'cite'}: 0.158
+{'www', 'web', 'date', 'cite'}: 0.174
+{'https', 'archive', 'web', 'date'}: 0.151
+{'web', 'www', 'http', 'cite'}: 0.15
+{'title', 'references', 'url', 'cite'}: 0.203
+{'https', 'www', 'references', 'cite'}: 0.18
+{'title', 'web', 'url', 'cite'}: 0.198
+{'https', 'www', 'web', 'cite'}: 0.178
+{'title', 'http', 'references', 'cite'}: 0.159
+{'title', 'https', 'web', 'www'}: 0.179
+{'title', 'www', 'web', 'cite'}: 0.185
+{'https', 'web', 'references', 'www'}: 0.177
+{'https', 'web', 'url', 'cite'}: 0.188
+{'title', 'web', 'references', 'url'}: 0.188
+{'web', 'http', 'references', 'www'}: 0.15
+{'title', 'web', 'references', 'www'}: 0.177
+{'https', 'web', 'references', 'url'}: 0.184
+{'web', 'date', 'url', 'references'}: 0.183
+{'http', 'date', 'url', 'cite'}: 0.154
+{'title', 'references', 'one', 'cite'}: 0.157
+{'title', 'https', 'one', 'cite'}: 0.15
+{'people', 'references', 'url', 'cite'}: 0.15
+{'www', 'date', 'url', 'references'}: 0.182
+{'title', 'web', 'date', 'www'}: 0.175
+{'title', 'web', 'date', 'cite'}: 0.185
+{'https', 'web', 'date', 'url'}: 0.192
+{'title', 'https', 'date', 'references'}: 0.185
+{'web', 'http', 'date', 'www'}: 0.153
+{'https', 'www', 'web', 'date'}: 0.18
+{'title', 'web', 'date', 'url'}: 0.186
+{'title', 'http', 'references', 'url'}: 0.158
+{'https', 'www', 'http', 'references'}: 0.151
+{'https', 'web', 'http', 'www'}: 0.154
+{'title', 'web', 'http', 'url'}: 0.157
+{'web', 'http', 'url', 'cite'}: 0.156
+{'title', 'web', 'http', 'www'}: 0.152
+{'title', 'www', 'references', 'cite'}: 0.186
+{'https', 'references', 'url', 'cite'}: 0.191
+{'https', 'web', 'http', 'url'}: 0.157
+{'www', 'web', 'references', 'cite'}: 0.176
+{'title', 'www', 'http', 'url'}: 0.156
+{'https', 'www', 'http', 'url'}: 0.158
+{'web', 'http', 'references', 'url'}: 0.155
+{'https', 'title', 'www', 'date'}: 0.18
+{'title', 'www', 'http', 'date'}: 0.15
+{'https', 'http', 'date', 'url'}: 0.158
+{'title', 'https', 'date', 'url'}: 0.191
+{'web', 'date', 'references', 'www'}: 0.173
+{'title', 'date', 'references', 'cite'}: 0.189
+{'https', 'date', 'references', 'cite'}: 0.182
+{'https', 'web', 'date', 'cite'}: 0.18
+{'title', 'web', 'url', 'www'}: 0.186
+{'title', 'https', 'references', 'url'}: 0.193
+{'title', 'www', 'http', 'references'}: 0.152
+{'https', 'http', 'references', 'url'}: 0.151
+{'title', 'https', 'www', 'references'}: 0.182
+{'title', 'www', 'url', 'cite'}: 0.195
+{'title', 'https', 'www', 'url'}: 0.19
+{'https', 'www', 'url', 'cite'}: 0.188
+{'web', 'references', 'url', 'cite'}: 0.187
+{'title', 'https', 'web', 'references'}: 0.179
+{'web', 'references', 'url', 'www'}: 0.181
+{'title', 'https', 'http', 'cite'}: 0.152
+{'www', 'http', 'url', 'cite'}: 0.155
+{'https', 'archive', 'date', 'url'}: 0.153
+{'https', 'date', 'url', 'cite'}: 0.189
+{'title', 'www', 'date', 'cite'}: 0.182
+{'title', 'http', 'date', 'cite'}: 0.155
+{'references', 'one', 'url', 'cite'}: 0.155
+{'https', 'www', 'http', 'date'}: 0.154
+{'title', 'http', 'date', 'url'}: 0.155
+{'title', 'references', 'one', 'url'}: 0.155
+{'title', 'http', 'date', 'references'}: 0.15
+{'title', 'people', 'references', 'cite'}: 0.152
+{'title', 'www', 'date', 'references'}: 0.178
+{'web', 'date', 'url', 'www'}: 0.184
+{'https', 'date', 'url', 'references'}: 0.189
+{'title', 'https', 'web', 'date'}: 0.181
+{'https', 'web', 'http', 'date'}: 0.153
+{'title', 'people', 'references', 'url'}: 0.151
+{'www', 'http', 'references', 'cite'}: 0.15
